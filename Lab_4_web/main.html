@@ -1,0 +1,58 @@
+
+<!-- HTML файл з використанням css -->
+<!DOCTYPE html>
+<head lang="en">
+<head>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title> Temperature Visualizer </title>
+    <style>
+    body  {
+    background: url(12.jpg);
+    }
+
+    .title {
+    text-decoration:underline;
+    font-style:italic;
+    color:green;
+    font-size:32px;
+    text-indent:43%
+    }
+
+    .date {
+    font-style:italic;
+    font-size:26px;
+    text-indent:800px
+    }
+
+    .temperature {
+    font-style:italic;
+    font-size:26px;
+    text-indent:750px
+    }
+    </style>
+    </head>
+
+<body style = "background-attachment:fixed">
+    <div class = "title"> Laboratory work №4 </div>
+    <div class="date"> Current data is {{datetime}} </div>
+    <div class="temperature"> Current temperature is {{temperature}} </div>
+</body>
+
+<!-- Табличка  -->
+<body>
+    <table border="5" align="center">
+    <tr><td> Current data is </td> <td>{{datetime}}</td>
+    <tr><td> Current temperature is </td> <td>{{temperature}}</td>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

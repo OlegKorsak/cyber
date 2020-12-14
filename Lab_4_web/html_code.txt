@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Visualizer</title>
+    <style>
+    h1 {
+    text-decoration: underline;
+    }
+    body{
+    background: url(12.jpg)no-repeat;  <!-- Тут йде посилання на картинку  -->
+    -moz-background-size: 100%
+    -webkit-background-size: 100%
+    background-size: 100%
+    }
+    </style>
+    </head>
+
+<!-- Сам текст, що знаходиться посередині -->
+<body style="background-attachment:fixed" topmargin="0">
+    <hr>
+    <h1 align = "center" >Laboratory work №4</h1>
+    <h2 align = "center">Current data is {{datetime}}</h2>
+    <h2 align = "center" >Current temperature is {{temperature}}</h2>
+    <hr>
+</body>
+
+<!-- Табличка  -->
+<body>
+    <table border="1" align="center">
+        <tr>
+            <td> Current data is  </td> <td> {{datetime}} </td>
+        </tr>
+        <tr>
+            <td> Current temperature is </td> <td> {{temperature}} </td>
+        </tr>
+
+
+</body>
+</html>
+
